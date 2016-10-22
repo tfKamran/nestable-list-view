@@ -39,8 +39,11 @@ public class NestableListView extends LinearLayout {
 
     public void setAdapter(Adapter adapter) {
         this.mAdapter = adapter;
+
         if(mAdapter != null) {
             mAdapter.registerNestableDataSetObserver(dataSetObserver);
+
+            mAdapter.notifyDataSetChanged();
         }
     }
 
