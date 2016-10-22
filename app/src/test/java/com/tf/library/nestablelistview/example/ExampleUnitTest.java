@@ -1,4 +1,4 @@
-package com.tf.library.nestablelistview;
+package com.tf.library.nestablelistview.example;
 
 import org.junit.Test;
 

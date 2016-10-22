@@ -1,4 +1,4 @@
-package com.tf.library.nestablelistview;
+package com.tf.library.nestablelistview.example;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
